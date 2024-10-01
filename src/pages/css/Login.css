@@ -1,0 +1,71 @@
+/* General styles for the Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #424874; /* fourth-color */
+    padding: 1rem;
+  }
+  
+  .login-form {
+    background: #f4eeff; /* first-color */
+    border-radius: 12px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .login-form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-form h1 {
+    color: #a6b1e1; /* third-color */
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-form input {
+    display: block;
+    width: calc(100% - 2rem);
+    margin: 0.5rem auto;
+    padding: 0.75rem;
+    border: 2px solid #dcd6f7; /* second-color */
+    border-radius: 8px;
+    background: #fff; /* white for inputs */
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #e84a5f; /* second-color for focus */
+    box-shadow: 0 0 8px rgba(232, 74, 95, 0.5); /* focus shadow effect */
+    outline: none;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    background: #e84a5f; /* second-color */
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #f6c667; /* third-color for hover */
+    transform: scale(1.05);
+  }
+  
+  .login-form button:active {
+    background-color: #f1f8fd; /* fourth-color for active */
+    transform: scale(0.98);
+  }
+  

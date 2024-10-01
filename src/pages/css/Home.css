@@ -1,0 +1,81 @@
+/* Home.css */
+
+.home-container {
+    background-color: #142d4c; /* Dark Blue */
+    color: #ececec; /* Light Gray for text */
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .home-content {
+    width: 60%; /* Default width for laptop screens */
+    max-width: 1200px; /* Maximum width */
+    background-color: #385170; /* Deep Blue */
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 2rem; /* Increased space from Navbar */
+  }
+  
+  .home-content:hover {
+    /* transform: scale(1.02); Slightly enlarge the content on hover */
+    box-shadow: 0 8px 16px rgba(251, 249, 249, 0.5);
+  }
+  
+  .home-content h1 {
+    color: #ececec; /* Light Gray for heading */
+  }
+  
+  .home-content button {
+    background-color: #9fd3c7; /* Light Teal */
+    color: #142d4c; /* Dark Blue for button text */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .home-content button:hover {
+    background-color: #ececec; /* Light Gray */
+    color: #385170; /* Deep Blue for text */
+  }
+  
+  .home-content button:active {
+    background-color: #385170; /* Deep Blue */
+    color: #ececec; /* Light Gray for text */
+    transform: scale(0.98);
+  }
+  
+  @media (max-width: 768px) {
+    .home-content {
+      width: 100%; /* Full width on mobile screens */
+      padding: 1rem;
+      margin-top: 1rem; /* Reduced space from Navbar on mobile */
+    }
+  }
+  
+  .navbar {
+    width: 100%; /* Navbar takes full width */
+    background-color: #385170; /* Deep Blue */
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar a {
+    color: #ececec; /* Light Gray for links */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #9fd3c7; /* Light Teal */
+  }
+  

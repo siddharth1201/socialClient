@@ -1,0 +1,51 @@
+/* Post.css */
+
+.post {
+    background-color: #9ac2e3; /* Metal Gear */
+    border: 1px solid #698296; /* Stormy Oceans */
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .post:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post h3 {
+    color: #698296; /* Stormy Oceans */
+  }
+  
+  .post img {
+    width: 100%; /* Ensure the image takes up full width of its container */
+    height: auto; /* Adjust height to maintain aspect ratio */
+    border-radius: 4px;
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .post button {
+    background-color: #84c0ea; /* Nevermind Nirvana */
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .post button:hover {
+    background-color: #97c9ef; /* Fail Whale */
+  }
+  
+  .post button:active {
+    background-color: #79b8e2; /* Malibu */
+    transform: scale(0.98);
+  }
+  
+  .post button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #8db7d7; /* Blue Bell */
+  }
+  
